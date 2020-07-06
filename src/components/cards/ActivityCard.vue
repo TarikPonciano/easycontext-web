@@ -6,10 +6,13 @@
       </v-card>
     </div>
     <div v-else>
-      <v-card min-width="300px" max-width="300px" max-height="430px" min-height="430px">
+      <v-card min-width="300px" max-width="300px" max-height="530px" min-height="430px">
         <v-card-title>
           <v-layout wrap>
-            <v-flex sm6>
+            <v-flex sm2>
+              <v-icon>directions_run</v-icon>
+            </v-flex>
+            <v-flex sm4>
               <span>Activity</span>
             </v-flex>
             <v-flex sm6>
@@ -34,7 +37,7 @@
             <v-flex>
               <v-select :items="methods" v-model="selected" label="Method"></v-select>
             </v-flex>
-            <v-flex xs12 sm6 md6 v-for=" type in activityTypes" v-bind:key="type.label">
+            <v-flex xs12 sm4 md6 v-for=" type in activityTypes" v-bind:key="type.label">
               <v-checkbox v-model="activitiesSelected" :label="type.label" :value="type.value"></v-checkbox>
             </v-flex>
           </v-layout>

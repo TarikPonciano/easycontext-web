@@ -15,5 +15,5 @@ new Vue({
 }).$mount('#app')
 
 Vue.use(VueGoogleMaps, {
-  key: 'AIzaSyC0WCWP3cqhaoSIurtzxXA5Q1SFmTDqwnE' //REMOVE IN PRODUCTION PLZ
+  key: 'AIzaSyBuwhcQCtisCqf8teHILvLksYQGJXltwBY' //REMOVE IN PRODUCTION PLZ
 })

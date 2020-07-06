@@ -2,10 +2,13 @@
   <v-card max-width="500px" min-height="500px">
     <v-card-title>
       <v-layout wrap>
-        <v-flex sm6>
+        <v-flex sm2>
+          <v-icon>vibration</v-icon>
+        </v-flex>
+        <v-flex sm4>
           <span>Vibrate</span>
         </v-flex>
-        <v-flex sm6>
+        <v-flex sm5>
           <v-layout wrap>
             <v-flex sm10></v-flex>
             <v-flex sm2>
@@ -18,8 +21,12 @@
       </v-layout>
     </v-card-title>
     <v-card-text>
-      <v-slider min="100" max="2000" label="Time (ms)" v-model="vibrateTime"
-      @end="sendData"></v-slider>
+      <v-row class="mt-12">
+      <v-slider thumb-label="always" thumb-size="48" min="100" max="2000" label="Time (ms)" v-model="vibrateTime"
+      @end="sendData"><template v-slot:thumb-label="{ value }">
+            {{ value+"ms" }}
+          </template></v-slider>
+      </v-row>
     </v-card-text>
   </v-card>
 </template>

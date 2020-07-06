@@ -6,10 +6,13 @@
       </v-card>
     </div>
     <div v-else>
-      <v-card min-width="300px" max-width="300px" max-height="430px" min-height="430px">
+      <v-card min-width="300px" max-width="300px" max-height="530px" min-height="430px">
         <v-card-title>
           <v-layout wrap>
-            <v-flex sm6>
+            <v-flex sm2>
+              <v-icon>access_time</v-icon>
+            </v-flex>
+            <v-flex sm4>
               <span>Time</span>
             </v-flex>
             <v-flex sm6>

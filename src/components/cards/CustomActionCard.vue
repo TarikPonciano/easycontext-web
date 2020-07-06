@@ -2,12 +2,18 @@
   <v-card max-width="500px" min-height="500px">
     <v-card-title>
       <v-layout wrap>
-        <v-flex sm6>
+
+        <v-flex sm1>
+          <v-icon>star</v-icon>
+        </v-flex>
+
+       <v-flex sm6>
           <span>Custom Action</span>
         </v-flex>
-        <v-flex sm6>
+
+        <v-flex sm5>
           <v-layout wrap>
-            <v-flex sm10></v-flex>
+            <v-flex sm8></v-flex>
             <v-flex sm2>
               <v-btn icon small color="red" @click="performDelete">
                 <v-icon small>delete</v-icon>

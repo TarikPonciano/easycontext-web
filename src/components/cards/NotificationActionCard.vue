@@ -2,10 +2,13 @@
   <v-card max-width="500px" min-height="500px">
     <v-card-title>
       <v-layout wrap>
-        <v-flex sm6>
+         <v-flex sm2>
+          <v-icon>notifications</v-icon>
+        </v-flex>
+        <v-flex sm7>
           <span>Show Notification</span>
         </v-flex>
-        <v-flex sm6>
+        <v-flex sm2>
           <v-layout wrap>
             <v-flex sm10></v-flex>
             <v-flex sm2>

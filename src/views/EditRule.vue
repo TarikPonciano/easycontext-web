@@ -7,7 +7,7 @@
             <v-list-item>
               <v-list-item-content>
                 <v-list-item-title class="title">Conditions</v-list-item-title>
-                <v-list-item-subtitle>Lorem ipsum dolor sit amet</v-list-item-subtitle>
+                <v-list-item-subtitle>Triggers an Action</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
 
@@ -31,7 +31,7 @@
             <v-list-item>
               <v-list-item-content>
                 <v-list-item-title class="title">Actions</v-list-item-title>
-                <v-list-item-subtitle>Lorem ipsum dolor sit amet</v-list-item-subtitle>
+                <v-list-item-subtitle>Activated when a Condition is met</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
 

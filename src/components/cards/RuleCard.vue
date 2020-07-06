@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="mx-auto"
+    class="mx-4 my-auto"
     max-width="344"
   >
     <v-card-text>

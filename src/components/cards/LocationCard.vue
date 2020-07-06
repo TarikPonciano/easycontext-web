@@ -7,10 +7,13 @@
     </div>
 
     <div v-if="!isMini">
-      <v-card min-width="300px" max-width="300px" max-height="430px" min-height="430px">
+      <v-card min-width="300px" max-width="300px" max-height="530px" min-height="430px">
         <v-card-title>
           <v-layout wrap>
-            <v-flex sm6>
+             <v-flex sm2>
+              <v-icon>my_location</v-icon>
+            </v-flex>
+            <v-flex sm4>
               <span>Location</span>
             </v-flex>
             <v-flex sm6>

@@ -8,15 +8,17 @@
       v-else
       min-width="300px"
       max-width="300px"
-      max-height="430px"
+      max-height="530px"
       min-height="430px"
       v-on:dblclick="toggleMini"
     >
       <div>
+
         <v-card-title>
           <v-layout wrap>
-            <v-flex sm6>
-              <span>Headphone</span>
+            <v-flex sm2> <v-icon>headset</v-icon></v-flex>
+            <v-flex sm4>
+               <span>Headphone</span>
             </v-flex>
             <v-flex sm6>
               <v-layout wrap>
